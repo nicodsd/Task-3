@@ -1,0 +1,174 @@
+html{
+    background-color:rgb(27, 27, 27);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.fondo-body{
+    opacity: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+/*BARRA NAVEGACIÓN*/
+.log{
+    width: 8vh;
+    padding: 5px;
+    position: relative;
+    left: -50px;
+}
+.barra-nav{
+    background-color:rgb(22, 22, 22);
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}   
+.titulos{
+    color: rgb(226, 221, 221);
+    margin: 3rem;
+    opacity: ;
+}
+.titulo1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* INDEX */
+.personas_train{
+    width: 100%;
+    z-index: -1;
+}
+.contenedor-p-img{
+    background-color: rgb(179, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info1{
+    font-size: 30px;
+    padding: 3rem;
+    color: white;
+    width: 50rem;
+    display:flex;
+}
+.elemento-img{
+    padding: 2rem;
+}
+
+/*TABLA-SCHEDULES*/
+thead{
+    background-color: rgb(0, 0, 0);
+}
+.tab{
+    padding: 0rem 0rem 3rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+table, tr, th, td{
+    border: 2px solid rgb(44, 43, 43);
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    background-color: rgba(182, 61, 31, 0.432);
+    text-align: center;
+    font-size: 20px;
+    width: 50rem;
+    height: 15vh;
+}
+
+/*  ABOUT   */
+.contenedor-img-p-about{
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.contenedor-personas,
+.contenedor-chicos,
+.contenedor-pesas{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.b1,
+.b2,
+.b3{
+    background-color:rgb(22, 22, 22);
+    padding: 55px;
+    width: 30rem;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*  CONTACT */
+.infocontact{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.contact-p{
+    color: white;
+    width: 45rem;
+    text-align: center;
+    font-size: 25px;
+    margin: 1rem 0rem 3rem;
+}
+.contacto-img{
+    display: flex;
+    width: 45rem;
+}   
+
+/*  BENEFITS ANDS TIPS  */
+.conteiner-list{
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.elemento-ol{
+    color: rgb(180, 180, 180);
+    font-size: 30px;
+    font-weight:500;
+}
+.element-ul, 
+.element-ul-2{
+    list-style-type:disc;
+    margin: 1rem;
+    font-size: 21px;
+}
+
+/*  BASE-FOOTER   */
+.conteiner-foot{
+    padding: 3vh;
+    background-color: rgb(179, 0, 0);
+    width: 100%;
+    height: 5rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.Email, .Tel{
+    text-decoration: none;
+    color: white;
+}
+
