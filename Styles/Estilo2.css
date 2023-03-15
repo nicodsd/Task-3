@@ -225,36 +225,35 @@ table, tr, th, td{
 /* BENEFITS */
 .conteiner-list-img{
     margin: 5rem;
-    height: 57vh;
     border-radius: 10px;
     display:flex;
-    flex-direction: column;
-    align-content: center;    
-    box-shadow: #00000083 1px 6px 18px;
+    display: inline-block;
+    justify-content: center;
 }
 .conteiner-list-img1,
 .conteiner-list-img2{
-    width: 125vh;
     padding: 0 3rem 0 4rem;
     color: white;
     display: flex;
+    display: inline-block;
+    justify-items: center;
 }
-.u1{
-    width: 45rem;
-    font-size: 23px;
+ol, ul, li{
+    margin: 3px 0 0rem 40px;
+}
+.list, .list2{
     font-weight: 700;
-}
-li{
-    margin: 7px 0 0rem 40px;
-    font-size: 15px;
-}
-ul, ol{
+    color: white;
+    font-size: 20px;
+    width: 88vh;
+    height: 8rem;
     background-color: #ff5e00;
-    width: 80vh;
-    height: 18vh;
-    margin: 2rem;
-    box-shadow: #00000083 1px 6px 18px;
     border-radius: 5px;
+    display: flex;
+    display: block;
+}
+.ad1, .ad2{ 
+    font-size: larger;
 }
 .conteiner-yoga, 
 .conteiner-maquinas{
